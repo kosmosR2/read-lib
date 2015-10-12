@@ -1,4 +1,4 @@
-# read-dir
+# read-lib
 read dir as a Object
 ##Example
 For example,here is out project structure:
@@ -15,7 +15,7 @@ For example,here is out project structure:
   
 you can do this in you app.js:
 
-    lib = require("read-dir");
+    lib = require("read-lib")("./lib",__dirname);
     console.log(lib);
   
 the result is:

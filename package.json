@@ -1,8 +1,8 @@
 {
   "name": "read-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "read dir as a Object",
   "author": "misasagi kosmos",
-  "repository": "git@git.raventech.cn:zhangwenfeng/socket-emitter.git",
+  "repository": "git@github.com:kosmosR2/read-lib.git",
   "license": "GPLv3"
 }

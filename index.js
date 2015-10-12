@@ -1,6 +1,10 @@
 var fs = require('fs');
 
-module.exports = function(dir){
+module.exports = function(dir,projectDir){
+  if(!/\/$/.test(projectDir)){
+    projectDir += "/";
+  }
+  dir = projectDir + dir;
   var libs = {};
   function readdir(dir,father){
     function isEmpty(obj){
@@ -32,7 +36,7 @@ module.exports = function(dir){
 		  }else if(st.isFile()){
 			  if(/.js$/.test(v)){
 				  var name = v.split('.js')[0];
-				  var req =  require(dir+v);
+				  var req = require(dir+v);
 				  if(isEmpty(point[name])){
 					  point[name] = req;
 				  }else{
