@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 module.exports = function(dir){
   var libs = {};
   function readdir(dir,father){
