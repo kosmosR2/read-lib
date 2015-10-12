@@ -1,0 +1,8 @@
+{
+  "name": "read-dir",
+  "version": "0.0.1",
+  "description": "read dir as a Object",
+  "author": "misasagi kosmos",
+  "repository": "git@git.raventech.cn:zhangwenfeng/socket-emitter.git",
+  "license": "GPLv3"
+}
