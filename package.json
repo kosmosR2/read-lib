@@ -1,7 +1,7 @@
 {
   "name": "read-lib",
-  "version": "0.0.5",
-  "description": "read dir as a Object",
+  "version": "0.2.1",
+  "description": "Require javascript from a dir as an Object recursively",
   "author": "misasagi kosmos",
   "repository": "git@github.com:kosmosR2/read-lib.git",
   "license": "GPLv3"
